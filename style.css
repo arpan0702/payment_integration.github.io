@@ -7,15 +7,24 @@ body {
 	font-style: normal;
 	font-weight: 200;
 }
+.row{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	padding-top: 100px;
+}
 .donate{
-    padding-top: 30%;
-    padding-left:44%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	padding-top:220px;
 }
 .whole{
     background-position: center;
     background-size:cover;
     height: 100vh;
-    widht: 100wh;
+    width: 100wh;
     background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("kiss-bg.png");
 }
 #navbar{
@@ -38,14 +47,12 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: auto;
-	background-color: #F5F5F5;
+	padding-top: 15%;
 }
 .titular .tagline {
 	font-size: 60px;
-	color: #FFF;
 	font-family: Times New Roman;
 	position: absolute;
-  margin-top: 200px;
  	left: 50%;
  	transform: translate(-50%, -50%);
 	animation: effect 2s linear infinite; 
