@@ -1,0 +1,85 @@
+body {
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+.donate{
+    padding-top: 30%;
+    padding-left:44%;
+}
+.whole{
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    widht: 100wh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("kiss-bg.png");
+}
+#navbar{
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: rgba(0,0,0,0.10);
+    height: 80px;
+    padding: 10px 35px;
+}
+.logo{
+    font-size: 18px;
+    height: 150px;
+    width: 150px;
+    margin-top: 0;
+    margin-left: 20px;
+}
+/* Container */
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	background-color: #F5F5F5;
+}
+.titular .tagline {
+	font-size: 60px;
+	color: #FFF;
+	font-family: Times New Roman;
+	position: absolute;
+  margin-top: 200px;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+	animation: effect 2s linear infinite; 
+	text-shadow: 1px 1px 4px #000000;
+}
+
+@keyframes effect { 
+	0% { 
+		color: #FFF;
+		-webkit-background-clip: text;
+	} 
+	100% { 
+		color: rgb(0,255,132); 
+		-webkit-background-clip: text; 
+	} 
+} 
+.titular .btntop {
+	font-size: 18px;
+	font-weight: 700;
+	font-family: Bahnschrift;
+	color: #FFF;
+	border: 2px solid white;
+	border-radius: 5px;
+	position: absolute;
+  top: 8%;
+  right: 1%;
+  transform: translate(-50%, -50%);
+	padding: 8px 25px;
+  cursor: pointer;
+	background-color: transparent;
+}
+
+.titular .btntop:hover {
+	background-color: #FFF;
+	color: rgb(0,35,51);
+	cursor: pointer;
+}
